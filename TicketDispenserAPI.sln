@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketDispenserAPI", "TicketDispenserAPI\TicketDispenserAPI.csproj", "{1F64DA0F-652D-4F0A-894F-FDEE1A436A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketDispenserAPI.Tests", "TicketDispenserAPI.Tests\TicketDispenserAPI.Tests.csproj", "{A200BD8A-5D37-40DD-8BA0-501392C5709F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F64DA0F-652D-4F0A-894F-FDEE1A436A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F64DA0F-652D-4F0A-894F-FDEE1A436A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F64DA0F-652D-4F0A-894F-FDEE1A436A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F64DA0F-652D-4F0A-894F-FDEE1A436A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A200BD8A-5D37-40DD-8BA0-501392C5709F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A200BD8A-5D37-40DD-8BA0-501392C5709F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A200BD8A-5D37-40DD-8BA0-501392C5709F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A200BD8A-5D37-40DD-8BA0-501392C5709F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01EE6D48-D979-490E-91D0-08D07591DA74}
+	EndGlobalSection
+EndGlobal
