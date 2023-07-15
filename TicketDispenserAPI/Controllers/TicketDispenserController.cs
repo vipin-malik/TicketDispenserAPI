@@ -16,8 +16,8 @@ namespace TicketDispenserAPI.Controllers
 
         [HttpGet]
         public ActionResult<int> GetTicketNumber()
-        {
-            return 0;
+        {            
+            return _ticketService.GetTicketNumber(); ;
         }
     }
 }

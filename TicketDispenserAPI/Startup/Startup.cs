@@ -25,12 +25,18 @@ namespace TicketDispenserAPI
 
         private void ConfigureApiVersioning(IServiceCollection services)
         {
-            
+            services.AddApiVersioning(options =>
+            {
+                options.DefaultApiVersion = new ApiVersion(1, 0);
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.ReportApiVersions = true;
+            });
         }
 
         private void ConfigureSwagger(IServiceCollection services)
         {
-            
+            services.AddEndpointsApiExplorer();
+            services.AddSwaggerGen();
         }
 
         private void RegisterProjectDependencies(IServiceCollection services)
